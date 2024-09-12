@@ -14,12 +14,17 @@ body {
     /* Bottom-left shadow */ 1px 1px 0 black; /* Bottom-right shadow */
 }
 
+.food-image {
+  width: 100px;
+  height: 200px;
+}
+
 ul {
   margin: 0px;
 }
 
 body > header {
-  background-color: #1ec0ff;
+  background-color: #e97ae9;
   color: white;
   display: flex;
   height: 12vh;
