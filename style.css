@@ -49,20 +49,6 @@ body > header > nav > ul {
   border-radius: 10%;
 }
 
-body > main article {
-  width: 80%;
-  margin: auto;
-}
-
-#main-content {
-  display: flex;
-  justify-content: space-around;
-}
-
-#main-content > div {
-  width: 70%;
-}
-
 form {
   text-align: center;
 }
@@ -79,13 +65,4 @@ body > footer {
 #footer-ul {
   display: flex;
   list-style: none;
-}
-
-#footer-ul > div > li {
-  margin-left: 12px;
-}
-
-#footer-ul > div > li > a {
-  text-decoration: none;
-  color: white;
 }
