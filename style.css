@@ -15,16 +15,37 @@ body {
 }
 
 .food-image {
-  width: 100px;
-  height: 200px;
+  width: 60%;
+  height: 70%;
 }
 
-ul {
-  margin: 0px;
+.image-caption {
+  margin-top: 15px;
+  text-align: center;
+}
+
+#image-container {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.meals {
+  font-size: 20px;
+}
+
+#main-content {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+  padding: 10px;
 }
 
 body > header {
-  background-color: #e97ae9;
+  background-color: #68afed;
   color: white;
   display: flex;
   height: 12vh;
@@ -63,7 +84,7 @@ h2 {
 }
 
 body > footer {
-  background-color: #1ec0ff;
+  background-color: #68afed;
   display: flex;
 }
 
