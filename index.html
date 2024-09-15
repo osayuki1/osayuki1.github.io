@@ -24,6 +24,7 @@
             <a href="" class="navbutton">Ingredients</a>
           </li>
         </ul>
+        <button id="darkModeToggle">Toggle Dark Mode</button>
       </nav>
       
     </header>
@@ -39,7 +40,6 @@
               <li><a href=""></a>Filter for dinner</li>
               <li><a href=""></a>Filter for desert</li>
             </ul>
-            <img src="images/moon.png" alt="grey image of the moon" id="icon">
           </nav>
         </section>
       </aside>
@@ -83,7 +83,7 @@
             <h2>Discover the best of QuickBites</h2>
           </header>
         <p id="popular-recipes">
-          Our Popular Recipes section brings together the most-loved dishes from our kitchen to yours. From savory comfort foods to light and healthy options, these recipes have been tried and tested by food lovers like you! Whether you're looking to impress your guests with a flavourful dish or just need a quick meal idea for a busy weeknight, we've got you covered. Check back regularly, as we’re always adding new, crowd-pleasing recipes to inspire your next culinary adventure!
+          The most sought after recipes from our kitchen to yours have been selected in this section of popular recipes. These dishes, which range from light and healthful options to savoury comfort foods, have been tried and tested by food enthusiasts just like you! We have you covered whether you're trying to impress your guests with a tasty dish or you just need a quick dinner suggestion for a hectic weeknight. We're constantly introducing delicious new recipes to inspire your next culinary journey, so be sure to check back often!
         </p>
           
         </article>
@@ -146,5 +146,11 @@
         </nav>
       </section>
     </footer>
+    <script>
+  const darkModeToggle = document.getElementById('darkModeToggle');
+  darkModeToggle.addEventListener('click', function() {
+    document.body.classList.toggle('dark-mode');
+  });
+</script>
   </body>
 </html>

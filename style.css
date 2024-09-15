@@ -46,9 +46,15 @@ body > header > nav > ul {
   border-radius: 10%;
 }
 
-#icon {
-  width: 30px;
-  cursor: pointer;
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.dark-mode header,
+.dark-mode footer {
+  background-color: #1e1e1e;
+  color: #ffffff;
 }
 
 .food-image {
@@ -116,6 +122,6 @@ footer > h2 {
 }
 
 #footer-ul > div > li > a {
-  color: black;
+  color: white;
   text-decoration: none;
 }
