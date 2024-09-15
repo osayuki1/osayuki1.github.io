@@ -2,6 +2,7 @@ body {
   font-family: Helvetica, Arial, sans-serif;
   margin: 0px;
   font-size: 1.5vw;
+  background-color: aliceblue;
 }
 
 #logo {
@@ -10,38 +11,8 @@ body {
   font-family: 'Alfa Slab One', sans-serif;
   width: 16%;
   text-shadow: -1px -1px 0 black, /* Top-left shadow */ 1px -1px 0 black,
-    /* Top-right shadow */ -1px 1px 0 black,
-    /* Bottom-left shadow */ 1px 1px 0 black; /* Bottom-right shadow */
-}
-
-.food-image {
-  width: 60%;
-  height: 70%;
-}
-
-.image-caption {
-  margin-top: 15px;
-  text-align: center;
-}
-
-#image-container {
-  text-align: center;
-  display: flex;
-  justify-content: space-around;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 5px;
-}
-
-.meals {
-  font-size: 20px;
-}
-
-#main-content {
-  display: flex;
-  justify-content: space-around;
-  margin: 20px;
-  padding: 10px;
+    /* Top-right shadow */ -2px 1px 0 black,
+    /* Bottom-left shadow */ 2px 1px 0 black; /* Bottom-right shadow */
 }
 
 body > header {
@@ -75,6 +46,42 @@ body > header > nav > ul {
   border-radius: 10%;
 }
 
+#icon {
+  width: 30px;
+  cursor: pointer;
+}
+
+.food-image {
+  width: 60%;
+  height: 70%;
+}
+
+.image-caption {
+  margin-top: 15px;
+  text-align: center;
+}
+
+#image-container {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+#popular-recipes {
+  width: 90%;
+  text-align: center;
+}
+
+#main-content {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+  padding: 10px;
+}
+
 form {
   text-align: center;
 }
@@ -84,6 +91,7 @@ h2 {
 }
 
 body > footer {
+  color: white;
   background-color: #68afed;
   display: flex;
 }
@@ -91,4 +99,23 @@ body > footer {
 #footer-ul {
   display: flex;
   list-style: none;
+  text-align: center;
+}
+
+footer > h2 {
+  font-family: 'Alfa Slab One', sans-serif;
+  padding-left: 20px;
+  font-size: 30px;
+  text-shadow: -1px -1px 0 black, /* Top-left shadow */ 1px -1px 0 black,
+    /* Top-right shadow */ -2px 1px 0 black,
+    /* Bottom-left shadow */ 2px 1px 0 black; /* Bottom-right shadow */
+}
+
+#footer-ul > div > li {
+  margin: 10px;
+}
+
+#footer-ul > div > li > a {
+  color: black;
+  text-decoration: none;
 }

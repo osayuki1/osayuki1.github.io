@@ -25,6 +25,7 @@
           </li>
         </ul>
       </nav>
+      
     </header>
     <main>
       <div id="main-content">
@@ -38,6 +39,7 @@
               <li><a href=""></a>Filter for dinner</li>
               <li><a href=""></a>Filter for desert</li>
             </ul>
+            <img src="images/moon.png" alt="grey image of the moon" id="icon">
           </nav>
         </section>
       </aside>
@@ -66,6 +68,10 @@
                  <p class="image-caption">Chicken arrabbiata stew & dumplings</p>
                 </div>
                 <div>
+                  <img src="https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-15435_12-a4ef488.jpg?quality=90&webp=true&resize=300,272" class="food-image">
+                 <p class="image-caption">Fish & chips</p>
+                </div>
+                <div>
                     <img src="https://images.immediate.co.uk/production/volatile/sites/30/2023/11/Speedy-lentil-coconut-curry-58d7b8c.jpg?quality=90&webp=true&resize=300,272" class="food-image">
                  <p class="image-caption">Lentil coconut curry</p>
                 </div>
@@ -74,21 +80,18 @@
         <article>
           <header>
             <!-- Article's header goes here -->
-            <h2>Browse a variety of recipes</h2>
+            <h2>Discover the best of QuickBites</h2>
           </header>
-        <ul class="meals">
-            <li>Quick family meals</li>
-            <li>Cultural recipes</li>
-            <li>Cheap easy recipes</li>
-            <li>Vegitarian recipes</li>
-        </ul>
+        <p id="popular-recipes">
+          Our Popular Recipes section brings together the most-loved dishes from our kitchen to yours. From savory comfort foods to light and healthy options, these recipes have been tried and tested by food lovers like you! Whether you're looking to impress your guests with a flavourful dish or just need a quick meal idea for a busy weeknight, we've got you covered. Check back regularly, as we’re always adding new, crowd-pleasing recipes to inspire your next culinary adventure!
+        </p>
           
         </article>
       
       <!-- main content of the website goes here -->
 
       <hr />
-      <h2>Sign up for our newsletter!</h2>
+      <h2>Sign up for QuickBites newsletter!</h2>
       <form action="" method="">
         <label for="first_name">First Name:</label>
         <input type="text" name="first_name" id="first_name" required />
@@ -102,22 +105,17 @@
         <label for="email">Email:</label>
         <input type="email" name="email" id="email">
         <br>
-
-        <label for="password">Password:</label>
-        <input type="password" name="password" id="password">
-        <br>
         <label for="country">Country:</label>
         <select name="country" id="country">
           <option value="england">England</option>
           <option value="scotland">Scotland</option>
           <option value="wales">Wales</option>
           <option value="northern_ireland">Northern Ireland</option>
+          <option value="other_european_region">Other European region</option>
+          <option value="africa">Africa</option>
+          <option value="asia">Asia</option>
         </select>
-        <br>
-
-        <label for="bio">Biography</label>
-        <textarea name="bio" id="bio" cols="30" rows="5"></textarea>
-        <br>
+        <br>  
 
         <input type="checkbox" name="subscribe" id="subscribe">
         <label for="subscribe">Subscribe to our newsletter</label>
